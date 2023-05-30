@@ -1,0 +1,62 @@
+.app__enrolled-widget {
+  width: 400px;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  color: #fff;
+  padding: 0rem 1rem 1.5rem;
+  .dateAndName {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    .enrolled-name {
+      font-weight: 700;
+      font-size: 16px;
+      @media screen and (max-width: 675px) {
+       font-size: 13px;
+      }
+    }
+    .enrolled-date {
+      font-weight: 300;
+      font-size: 14px;
+      @media screen and (max-width: 675px) {
+        font-size: 11px;
+      }
+    }
+  }
+  .enrolled-name {
+    font-weight: 500;
+    font-size: 14px;
+    @media screen and (max-width: 675px) {
+        font-size: 12px;
+      }
+  }
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 10px;
+    .course {
+      border: solid 1px rgb(212, 201, 201);
+      padding: 0px 1rem;
+      border-radius: 20px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 675px) {
+        height: 30px;
+      }
+      h4 {
+        font-weight: 400;
+        font-size: 14px;
+        @media screen and (max-width: 675px) {
+          font-size: 11px;
+          }
+      }
+    }
+  }
+  @media screen and (max-width: 675px) {
+    width: 300px;
+    height: 200px;
+  }
+}

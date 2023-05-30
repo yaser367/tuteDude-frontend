@@ -1,0 +1,116 @@
+.app__widgets {
+  display: flex;
+  gap: 130px;
+  .app__widget {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    width: 486px;
+    height: 220px;
+    border-radius: 20px;
+    @media screen and (max-width: 1020px) {
+      gap: 1px;
+    }
+    @media screen and (max-width: 935px) {
+      width: 300px;
+    }
+    .widget {
+      height: 110px;
+      width: 120px;
+      padding: 0px 12px;
+      @media screen and (max-width: 1200px) {
+        height: 90px;
+        width: 100px;
+      }
+      @media screen and (max-width: 1020px) {
+        height: 1px;
+        width: 70px;
+      }
+      @media screen and (max-width: 935px) {
+        height: 50px;
+        width: 120px;
+      }
+    }
+    h5 {
+      color: #800080;
+      font-size: 14px;
+      font-weight: 400;
+      @media screen and (max-width: 1200px) {
+        font-size: 12px;
+      }
+      @media screen and (max-width: 1020px) {
+        font-size: 8px;
+      }
+      @media screen and (max-width: 935px) {
+        font-size: 14px;
+      }
+    }
+    p {
+      font-size: 32px;
+      font-weight: 500;
+      @media screen and (max-width: 1200px) {
+        font-size: 20px;
+      }
+      @media screen and (max-width: 1020px) {
+        font-size: 15px;
+      }
+      @media screen and (max-width: 935px) {
+        font-size: 24px;
+      }
+    }
+    button {
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      background: #800080;
+      width: 180px;
+      height: 40px;
+      @media screen and (max-width: 1200px) {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+      }
+      @media screen and (max-width: 1020px) {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+      }
+      @media screen and (max-width: 935px) {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+      }
+    }
+  }
+  .app__referal {
+    h4 {
+      color: #800080;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    .referal-code {
+      width: 270px;
+      height: 60px;
+      border: 2px solid;
+      border-radius: 20px;
+      border-image: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+      background-repeat: no-repeat;
+      border-image-slice: 1;
+      border-radius: 20px;
+      p {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 1.5em;
+        color: #800080;
+        margin-left: 20px;
+      }
+    }
+  }
+  @media screen and (max-width: 935px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

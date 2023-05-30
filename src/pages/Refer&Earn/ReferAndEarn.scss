@@ -1,0 +1,29 @@
+.app__ReferAndEarn {
+  margin: 1rem 10rem;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  p {
+    font-weight: 600;
+    font-size: 24px;
+    color: #800080;
+  }
+  .howDoes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .app__ReferAndEarn-footer {
+    h4 {
+      color: #800080;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width:935px) {
+  margin: 0rem 0rem;
+    
+  }
+
+}

@@ -1,0 +1,50 @@
+.app__nav {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  .nav__logo {
+    .nav__logo-img {
+      width: 140px;
+      height: 60px;
+    }
+  }
+  .nav__text {
+    display: flex;
+    gap: 2rem;
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      color: #c0a3c0;
+    }
+    .nav__profile {
+      display: flex;
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #800080;
+      }
+      svg {
+        margin: 1.2rem 0.8rem;
+        color: #800080;
+      }
+    }
+    @media screen and (max-width: 1020px) {
+      display: none;
+    }
+  }
+  .nav__dropdown {
+    margin: 0.8rem;
+
+    .nav__dowpdown-selection {
+      width: 130px;
+      height: 35px;
+      border-radius: 10px;
+      background: #800080;
+      color: #fff;
+      padding: 2px 8px;
+    }
+    @media screen and (min-width: 1021px) {
+      display: none;
+    }
+  }
+}

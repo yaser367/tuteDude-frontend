@@ -1,0 +1,129 @@
+.app__friendsReffer {
+  margin: 1rem 10rem;
+  width: 80%;
+  h4 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .app__friendsReffer-root {
+    display: flex;
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      color: #800080;
+    }
+    svg {
+      font-size: 20px;
+      color: #800080;
+      margin: 1.5rem 0.5rem;
+    }
+    @media screen and (min-width: 1020px) {
+      display: none;
+    }
+  }
+  .app__friendsReffer-reffer {
+    display: flex;
+    justify-content: space-between;
+
+    .app__friendsReffer-refferalCode {
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        color: #800080;
+        @media screen and (max-width: 675px) {
+          font-size: 13px;
+        }
+      }
+      div {
+        border: solid 1px rgb(192, 192, 192);
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        border-radius: 20px;
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          letter-spacing: 0.75em;
+          @media screen and (max-width: 675px) {
+            font-size: 12px;
+          }
+        }
+        @media screen and (max-width: 675px) {
+          width: 160px;
+        }
+      }
+    }
+    .app__friendsReffer-balance {
+      width: 145px;
+      height: 85px;
+      background: #ffffff;
+      box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+      border-radius: 20px;
+      h4 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #800080;
+        position: relative;
+        left: 15%;
+        @media screen and (max-width: 675px) {
+          font-size: 10px;
+        }
+      }
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        position: relative;
+        left: 35%;
+        @media screen and (max-width: 675px) {
+          font-size: 12px;
+          line-height: 1px;
+        }
+      }
+      @media screen and (max-width: 675px) {
+        width: 105px;
+        height: 65px;
+      }
+    }
+  }
+  .p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #800080;
+    span {
+      color: #787378;
+    }
+    @media screen and (max-width: 675px) {
+        font-size: 17px;
+        }
+  }
+  .app__friendsReffer-enrolled {
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+    @media screen and (max-width: 1020px) {
+      flex-direction: column;
+    }
+    @media screen and (max-width: 675px) {
+      align-items: center;
+    }
+  }
+  .app__friendsReffer-enrolled::-webkit-scrollbar {
+    display: none;
+  }
+  .app__friendsReffer-footer {
+    h4 {
+      color: #800080;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    margin: 2rem;
+    width: 90%;
+  }
+  @media screen and (max-width: 405px) {
+    margin: 0rem;
+    width: 100%;
+  }
+}

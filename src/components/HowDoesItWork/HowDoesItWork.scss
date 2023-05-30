@@ -1,0 +1,32 @@
+.app__howDoes {
+  display: flex;
+  gap: 20px;
+  width: 400px;
+  margin-right: 40px;
+  .app__howDoes-logo {
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+     width: 30px;
+     height: 30px;
+    }
+  }
+  .app__howDoes-content {
+    h4 {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #4d4d4d;
+    }
+  }
+}
